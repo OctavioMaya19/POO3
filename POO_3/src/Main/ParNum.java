@@ -6,7 +6,7 @@ import Servicio.ParDeNumeros_Service;
 public class ParNum {
 
     public static void main(String[] args) {
-        
+
         ParDeNumeros_Service num = new ParDeNumeros_Service();
         ParDeNumeros numeros = num.crea();
         num.mostrarValores(numeros);

@@ -1,9 +1,9 @@
 package Entidad;
 
 public class Cadena {
-    
+
     private String frase;
-    private int longitud; 
+    private int longitud;
 
     public Cadena() {
     }
@@ -21,7 +21,7 @@ public class Cadena {
         this.frase = frase;
         this.longitud = frase.length();
     }
-       
+
     public int getLongitud() {
         return longitud;
     }
@@ -29,11 +29,5 @@ public class Cadena {
     public void setLongitud(int longitud) {
         this.longitud = longitud;
     }
-    
-    
-    
-    
-    
-    
-    
+
 }

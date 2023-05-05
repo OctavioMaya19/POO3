@@ -1,7 +1,7 @@
 package Entidad;
 
 public class ParDeNumeros {
-    
+
     private double num1;
     private double num2;
 
@@ -23,6 +23,5 @@ public class ParDeNumeros {
     public void setNum2(double num2) {
         this.num2 = num2;
     }
-    
-    
+
 }
